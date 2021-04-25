@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="uz.ali.finance98.ui.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/transFragment"
+        android:name="uz.ali.finance98.ui.home.TransFragment"
+        android:label="fragment_trans"
+        tools:layout="@layout/fragment_trans" />
+    <fragment
+        android:id="@+id/cardsFragment"
+        android:name="uz.ali.finance98.ui.cards.CardsFragment"
+        android:label="fragment_cards"
+        tools:layout="@layout/fragment_cards" />
+    <fragment
+        android:id="@+id/cardsTransFragment"
+        android:name="uz.ali.finance98.ui.cards.CardsTransFragment"
+        android:label="fragment_cards_trans"
+        tools:layout="@layout/fragment_cards_trans" />
+    <fragment
+        android:id="@+id/earningsFragment"
+        android:name="uz.ali.finance98.ui.earnings.EarningsFragment"
+        android:label="fragment_earnings"
+        tools:layout="@layout/fragment_earnings" />
+</navigation>

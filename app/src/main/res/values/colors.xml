@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="teal_200">#3F43FB</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#F2F2F2</color>
+
+
+    <color name="kok">#3F43FB</color>
+    <color name="qora500">#87859A</color>
+    <color name="qoratext">#222222</color>
+    <color name="qoraqoratext">#1E1E1E</color>
+    <color name="koktext">#4044FC</color>
+    <color name="color_kok50">#E6E9FF</color>
+
+    <color name="kamkok">#301013A7</color>
+    <color name="itemcolor">#DEDEDE</color>
+
+
+
+</resources>
